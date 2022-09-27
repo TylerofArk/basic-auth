@@ -2,7 +2,7 @@
 
 module.exports = (sequelizeDatabase, DataTypes) => {
 
-  return sequelizeDatabase.define('Users', {
+  return sequelizeDatabase.define('User', {
     username: {
       type: DataTypes.STRING,
       allowNull: false,
